@@ -1,0 +1,23 @@
+.technology {
+  background-image: url("/public/image/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.technology-name {
+  line-height: var(--line-height);
+  min-height: var(--min-height);
+}
+
+.technology-description {
+  height: var(--height-container-text);
+  padding: var(--padding-1verse);
+  overflow-y: auto;
+}
+
+.nav-technology {
+  display: flex;
+  justify-content: space-between;
+}
+
+

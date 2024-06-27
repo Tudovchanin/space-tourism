@@ -1,0 +1,25 @@
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+    border: solid 1px var(--accent-color);
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.85;
+    color: aliceblue;
+  }
+}
+
+.circle-elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--circle-size);
+  height: var(--circle-size);
+  border-radius: var(--border-radius); 
+  font-family: var(--second-family);
+  color: var(--secondary-color);
+  animation: pulse 2s infinite ease-in-out;
+  background-color: var(--accent-color);
+}

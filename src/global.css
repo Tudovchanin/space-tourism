@@ -1,0 +1,53 @@
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100vh;
+	font-family: var(--font-family);
+	font-size: var(--text-size-medium);
+	font-weight: var(--font-weight-normal);
+	color: var(--primary-color);
+	background-color: var(--secondary-color);
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+.link-active {
+	color: var(--active-color);
+}
+.position-x-center {
+	margin: 0 auto;
+}
+
+.scroll::-webkit-scrollbar {
+	width: 8px; /* Ширина полосы прокрутки */
+}
+
+.scroll::-webkit-scrollbar-track {
+	background: var(--secondary-color);
+}
+
+.scroll::-webkit-scrollbar-thumb {
+	background: var(--accent-color);
+}
+
+.padding-common {
+	padding-left: calc(8% + 10px);
+}
+
+@media (max-width: 1200px) {
+	.padding-common {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

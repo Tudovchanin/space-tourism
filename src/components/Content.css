@@ -1,0 +1,8 @@
+.content {
+ display: flex;
+ gap: var(--gap-1verse);
+ max-width: var(--content-max-width);
+ height: 600px;
+ padding: 0 var(--padding-1verse);
+} 
+

@@ -1,0 +1,34 @@
+.crew {
+  background-image: url("/public/image/crew/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.crew-role {
+  letter-spacing: var(--letter-spacing);
+}
+
+.name-crew {
+  width: min-content;
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+}
+
+.bio-crew {
+  height: var(--height-container-text);
+  padding: var(--padding-1verse);
+  overflow-y: auto;
+}
+
+.nav-crew {
+  display: flex;
+  justify-content: space-between;
+}
+
+.crew__img img {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  height: max(40vw, 400px);
+}

@@ -1,0 +1,6 @@
+.home {
+  background-image: url("/public/image/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}

@@ -1,0 +1,52 @@
+.destination {
+  background-image: url("../../public/image/destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes rotatePlanet {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.destination__img {
+  overflow: hidden; 
+}
+
+.destination__img img {
+  animation: rotatePlanet 20s infinite linear;
+}
+
+.nav-planet {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-size-small);
+} 
+
+.description-planet {
+  text-align: center;
+}
+
+.destination-description {
+  height: var(--height-container-text);
+  overflow-y: auto;
+}
+
+.planet-travel-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: var(--gap-2verse);
+  font-size: var(--text-size-small);
+}
+
+.line-decor {
+  height: 2px;
+  width: 100%;
+  background-color: var(--active-color);
+}
+

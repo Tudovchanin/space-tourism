@@ -1,0 +1,20 @@
+.btn-content {
+  width: var(--btn-content-width);
+  padding: var(--padding-1verse);
+  letter-spacing: var(--letter-spacing);
+  font-size: var(--text-size-small);
+}
+
+.btn-content--reset-width {
+  width: initial;
+}
+
+.btn-content--hover {
+  transition: color var(--transition-time) var(--transition-type);
+}
+
+@media (hover: hover) {
+  .btn-content--hover:hover {
+    color: var(--accent-color);
+  }
+}
