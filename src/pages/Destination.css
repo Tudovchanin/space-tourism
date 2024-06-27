@@ -27,10 +27,6 @@
   font-size: var(--text-size-small);
 } 
 
-.description-planet {
-  text-align: center;
-}
-
 .destination-description {
   height: var(--height-container-text);
   overflow-y: auto;

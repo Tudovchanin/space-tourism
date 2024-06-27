@@ -6,7 +6,7 @@
 
 .technology-name {
   line-height: var(--line-height);
-  min-height: var(--min-height);
+  width: min-content;
 }
 
 .technology-description {
@@ -19,5 +19,3 @@
   display: flex;
   justify-content: space-between;
 }
-
-
