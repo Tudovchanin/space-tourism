@@ -36,7 +36,7 @@ const Destination = () => {
         <ContentImage>
           <div className="destination__img">
             <img
-              src={`./image/destination/image-${planetInfo.currentPlanet.toLowerCase()}.png`}
+              src={`${process.env.PUBLIC_URL}/image/destination/image-${planetInfo.currentPlanet.toLowerCase()}.png`}
               alt={`${planetInfo.currentPlanet} planet`}
             />
           </div>

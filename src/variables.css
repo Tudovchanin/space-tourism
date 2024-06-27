@@ -61,13 +61,12 @@
 	@media (max-width: 750px) {
 		--btn-content-width: 5vw;
 	}
-
 	
 	--circle-size: min(300px, 60vw);
 
 	--content-max-width: 1440px;
-	--content-img-width: 50%;
-	--content-text-width: 50%;
+	--content-img-width: 40%;
+	--content-text-width: 60%;
 	@media (max-width: 1200px) {
 		--content-img-width: 100%;
 		--content-text-width: 80%;

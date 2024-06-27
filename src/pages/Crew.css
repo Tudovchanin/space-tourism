@@ -1,5 +1,5 @@
 .crew {
-  background-image: url("/public/image/crew/background-crew-desktop.jpg");
+  background-image: url("../../public/image/crew/background-crew-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

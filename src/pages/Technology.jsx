@@ -26,7 +26,7 @@ const Technology = () => {
   }
   function getImagePath(technology) {
     const imageName = technology.toLowerCase().split(" ").join("-");
-    return `./image/technology/image-${imageName}`;
+    return `${process.env.PUBLIC_URL}/image/technology/image-${imageName}`;
   }
 
   return (

@@ -27,7 +27,6 @@ const Crew = () => {
       role: objCrew.role,
       bio: objCrew.bio,
     });
-    console.log("click");
   }
 
   return (
@@ -85,7 +84,7 @@ const Crew = () => {
         <ContentImage>
           <div className="crew__img">
             <img
-              src={`./image/crew/image-${crewInfo.name
+              src={`${process.env.PUBLIC_URL}/image/crew/image-${crewInfo.name
                 .toLowerCase()
                 .split(" ")
                 .join("-")}.png`}
